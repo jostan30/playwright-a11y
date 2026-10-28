@@ -20,7 +20,7 @@ Each test asserts that the cart badge in the header shows `1` after adding the p
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone git@github.com:jostan30/playwright-a11y.git
 cd ecommerce-pw-test
 
 # 2. Install dependencies
@@ -36,14 +36,8 @@ npx playwright install
 # Run all tests (headless Chromium)
 npx playwright test
 
-# Run a single spec
-npx playwright test tests/add-to-cart.spec.js
-
 # Run headed (watch the browser)
 npx playwright test --headed
-
-# Open the HTML report after a run
-npx playwright show-report
 ```
 
 ## Running tests on BrowserStack
